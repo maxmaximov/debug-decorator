@@ -13,16 +13,13 @@
     "url": "git+https://github.com/maxmaximov/debug-decorator.git"
   },
   "main": "build/debug-decorator.js",
-  "files": "build/debug-decorator.js",
+  "files": ["build/debug-decorator.js"],
   "scripts": {
     "test": "mocha",
-    "preinstall": "mkdir -p build",
-    "install": "babel src/debug-decorator.js > build/debug-decorator.js"
-  },
-  "dependencies": {
-    "babel": "^5.8.23"
+    "build": "mkdir -p build && babel src/debug-decorator.js > build/debug-decorator.js"
   },
   "devDependencies": {
+    "babel": "^5.8.23",
     "colors": "^1.1.2",
     "intercept-stdout": "^0.1.2",
     "mocha": "^2.3.2"

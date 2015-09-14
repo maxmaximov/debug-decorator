@@ -2,7 +2,7 @@
 
 const assert = require('assert');
 const stdout = require('../utils/stdout');
-const debug = require('../debug-decorator');
+const debug = require('../build/debug-decorator');
 
 require('../utils/uncache')();
 

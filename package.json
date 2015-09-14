@@ -1,0 +1,24 @@
+{
+  "name": "debug-decorator",
+  "version": "0.0.1",
+  "description": "The decorator for debugging es6 classes",
+  "readme": "The decorator for debugging es6 classes",
+  "license": "ISC",
+  "author": {
+    "name": "Max Maximov",
+    "email": "max.maximov@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxmaximov/debug-decorator.git"
+  },
+  "main": "debug-decorator.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "colors": "^1.1.2",
+    "intercept-stdout": "^0.1.2",
+    "mocha": "^2.3.2"
+  }
+}

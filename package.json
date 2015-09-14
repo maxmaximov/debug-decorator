@@ -1,6 +1,6 @@
 {
   "name": "debug-decorator",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "The decorator for debugging es6 classes",
   "readme": "The decorator for debugging es6 classes",
   "license": "ISC",
@@ -13,7 +13,9 @@
     "url": "git+https://github.com/maxmaximov/debug-decorator.git"
   },
   "main": "build/debug-decorator.js",
-  "files": ["build/debug-decorator.js"],
+  "files": [
+    "build/debug-decorator.js"
+  ],
   "scripts": {
     "test": "mocha",
     "build": "mkdir -p build && babel src/debug-decorator.js > build/debug-decorator.js"

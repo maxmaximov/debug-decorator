@@ -17,13 +17,15 @@
     "build/debug-decorator.js"
   ],
   "scripts": {
+    "build": "mkdir -p build && babel debug-decorator.js > build/debug-decorator.js",
+    "pretest": "npm run build",
     "test": "mocha",
-    "build": "mkdir -p build && babel src/debug-decorator.js > build/debug-decorator.js"
+    "preversion": "npm test"
   },
   "devDependencies": {
     "babel": "^5.8.23",
     "colors": "^1.1.2",
     "intercept-stdout": "^0.1.2",
-    "mocha": "^2.3.2"
+    "mocha": "^2.3.3"
   }
 }

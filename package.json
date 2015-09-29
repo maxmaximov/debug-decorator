@@ -2,17 +2,20 @@
   "name": "debug-decorator",
   "version": "0.0.7",
   "description": "The decorator for debugging es6 classes",
-  "readme": "The decorator for debugging es6 classes",
   "license": "ISC",
   "author": {
     "name": "Max Maximov",
     "email": "max.maximov@gmail.com"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/maxmaximov/debug-decorator.git"
-  },
+  "repository": "maxmaximov/debug-decorator",
   "main": "build/debug-decorator.js",
+  "keywords": [
+    "es6",
+    "es2015",
+    "class",
+    "debug",
+    "decorator"
+  ],
   "files": [
     "build/debug-decorator.js"
   ],

@@ -1,5 +1,11 @@
 language: node_js
 node_js:
- - '4.0'
-before_script:
- - npm run build
+- 4.0.0
+deploy:
+  provider: npm
+  email: max.maximov@gmail.com
+  api_key:
+    secure: AKhV2/b4Q69boo8WCzchd0htyyxpqfV4xF5pI6O6+CEwB4cFNjjbq+AA7XwmkTgw8LotQLxsy+GMLvF6Z1lAb9goQxM+MvsNfPqwOu2SLLnLHxjIsPxIZlLKV4eJV6riU/PR4fymqQAou78ONBgxj7NylEXNfJnKUPhj+WH7XOd+cYXcqpH2mMWhDfyaosZkwTnlb73+R6PS1fJ88/Dtjt97Tr9gh2+Eur6+Fx6VY4K98WL5rEMup30RFZpG+QAD6NRPkcyVZjONIgLmzGlLr+E89t2aNA/ho0QF2ymFx4i/29lXrfnghwq7W7TKWJfy+PzyZsU+JiWaVoQxgEeYAnSEJdZdW6z4yyAqQeSQP5llRHOpGFb5GEZNJlzo9hshyX3UVb4slPdKPortrnDQWIXzp0omoQ68sb6luH6+op71l15eDld07gMABqBH6T9yD2bf8qfqzFt9EWgX7SN63WzHzuk7R+iI2P9erhKuo7Vj6Pb1rrQWCHCxsaWQc6EtRJRAmrU0B1z32qpkCSBZI1H06C9EhJi768ClLvEplDchmYXMSXgfrPDEufGrP6AA+pBoq85u3ZCHGo5MyIqLgu25MLYREshtZ5OnLBrkJVzwWoJ3D4Dl3X67fWtU880825PcX3rGI++lqGm4mIO2brCQs34PSwIKznsoqBJudhM=
+  on:
+    tags: true
+    repo: maxmaximov/debug-decorator

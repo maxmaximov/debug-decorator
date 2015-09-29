@@ -1,6 +1,6 @@
 {
   "name": "debug-decorator",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "The decorator for debugging es6 classes",
   "license": "ISC",
   "author": {
